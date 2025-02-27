@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-2025-02-27 16:34:39 | INFO: 0) Unpack information from JSON
-2025-02-27 16:34:39 | INFO: 1) Instantiate and Configure Tool
-2025-02-27 16:34:39 | INFO: 2) Run Tool
-=======
-2024-10-29 20:16:55 | INFO: 0) Unpack information from JSON
-2024-10-29 20:16:55 | INFO: 1) Instantiate and Configure Tool
-2024-10-29 20:16:55 | INFO: 2) Run Tool
->>>>>>> origin/main
+2025-02-27 17:16:44 | INFO: 0) Unpack information from JSON
+2025-02-27 17:16:44 | INFO: 1) Instantiate and Configure Tool
+2025-02-27 17:16:44 | INFO: 2) Run Tool
 
 -- Input data:
 {'input_fasta': '/shared_data/public_tmp/fasta_file.txt', 'ids_txt': '/shared_data/public_tmp/ids.txt'}
@@ -20,18 +14,9 @@
 -- Expected output is:
 /shared_data/public_tmp/outputfasta.fasta
 
-<<<<<<< HEAD
 -- Starting the Demo
-['python', '/home/vre_template_tool/../seqio_tool/extract_sequences.py', '/shared_data/public_tmp/fasta_file.txt', '/shared_data/public_tmp/ids.txt', '/shared_data/public_tmp/outputfasta.fasta', '50']
-2025-02-27 16:34:39 | PROGRESS: The execution finished successfully - FINISHED
-2025-02-27 16:34:39 | INFO: 3) Create information
-2025-02-27 16:34:39 | INFO: 4) Pack information to JSON
-2025-02-27 16:34:39 | PROGRESS: <myTool> tool successfully executed; see /shared_data/userdata/user_1/run000/out_metadata.json
-=======
--- Starting the Demo pipeline
 ['python3', '/home/vre_template_tool/../seqio_tool/extract_sequences.py', '/shared_data/public_tmp/fasta_file.txt', '/shared_data/public_tmp/ids.txt', '/shared_data/public_tmp/outputfasta.fasta', '50']
-2024-10-29 20:16:56 | PROGRESS: The execution finished successfully - FINISHED
-2024-10-29 20:16:56 | INFO: 3) Create information
-2024-10-29 20:16:56 | INFO: 4) Pack information to JSON
-2024-10-29 20:16:56 | PROGRESS: <myTool> tool successfully executed; see /shared_data/userdata/user_1/run000/out_metadata.json
->>>>>>> origin/main
+2025-02-27 17:16:44 | PROGRESS: The execution finished successfully - FINISHED
+2025-02-27 17:16:44 | INFO: 3) Create information
+2025-02-27 17:16:44 | INFO: 4) Pack information to JSON
+2025-02-27 17:16:44 | PROGRESS: <myTool> tool successfully executed; see /shared_data/userdata/user_1/run000/out_metadata.json

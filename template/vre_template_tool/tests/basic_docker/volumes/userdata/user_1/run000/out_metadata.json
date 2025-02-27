@@ -4,7 +4,7 @@
       "name": "output_fasta",
       "type": "file",
       "file_path": "/shared_data/public_tmp/outputfasta.fasta",
-      "data_type": "result",
+      "data_type": "output_file",
       "file_type": "FASTA",
       "sources": [
         "/shared_data/public_tmp/fasta_file.txt",

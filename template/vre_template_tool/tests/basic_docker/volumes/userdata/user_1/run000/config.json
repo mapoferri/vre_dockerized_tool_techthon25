@@ -38,7 +38,7 @@
             "allow_multiple": false,
             "file": {
                 "file_type": "FASTA",
-                "data_type": "result",
+                "data_type": "output_file",
                 "meta_data": {
                     "visible": true,
                     "tool": "seqio_tool",

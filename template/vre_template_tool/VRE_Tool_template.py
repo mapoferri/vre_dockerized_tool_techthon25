@@ -29,7 +29,7 @@ class myTool(Tool):
     """
     """
     DEFAULT_KEYS = ['execution', 'project', 'description']
-    PYTHON_SCRIPT_PATH = "/your-script.py"
+    PYTHON_SCRIPT_PATH = "/python.script.py"
     """config.json default keys"""
 
     def __init__(self, configuration=None):
@@ -127,7 +127,7 @@ class myTool(Tool):
 
 
             # Get input files
-            input_file_1 = input_files.get('input_file_1')
+            input_file_1 = input_files.get('input_file')
             if not os.path.isabs(input_file_1):
                 input_file_1 = os.path.normpath(os.path.join(self.parent_dir, input_file_1))
 
@@ -152,8 +152,10 @@ class myTool(Tool):
             print(output_file_path)
             
             cmd = [
-                'bash', '/home/demo_pipeline.sh', output_file_path 
-            ]
+ 
+                'bash', '/home/my_demo_pipeline.sh', output_file_path
+
+                    ]
             
             print("\n-- Starting the Demo")
             print(cmd)
