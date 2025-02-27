@@ -1,0 +1,20 @@
+{
+  "output_files": [
+    {
+      "name": "output_fasta",
+      "type": "file",
+      "file_path": "/shared_data/public_tmp/outputfasta.fasta",
+      "data_type": "result",
+      "file_type": "FASTA",
+      "sources": [
+        "/shared_data/public_tmp/fasta_file.txt",
+        "/shared_data/public_tmp/ids.txt"
+      ],
+      "meta_data": {
+        "visible": true,
+        "tool": "seqio_tool",
+        "description": "Demo output file."
+      }
+    }
+  ]
+}
